@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_explore">
+
+    <fragment
+        android:id="@+id/navigation_recents"
+        android:name="edu.utap.yournavigatordeluxe.RecentsFragment"
+        android:label="navigation_recents"
+        tools:layout="@layout/fragment_recents" />
+    <fragment
+        android:id="@+id/navigation_faves"
+        android:name="edu.utap.yournavigatordeluxe.FavesFragment"
+        android:label="navigation_faves"
+        tools:layout="@layout/fragment_faves" />
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="edu.utap.yournavigatordeluxe.ExploreFragment"
+        android:label="navigation_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/navigation_gas"
+        android:name="edu.utap.yournavigatordeluxe.GasFragment"
+        android:label="navigation_gas"
+        tools:layout="@layout/fragment_gas" />
+</navigation>

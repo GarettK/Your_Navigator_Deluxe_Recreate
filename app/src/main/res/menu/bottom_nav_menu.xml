@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_recents"
+        android:icon="@drawable/ic_recent_24"
+        android:title="Recents"/>
+    <item
+        android:id="@+id/navigation_faves"
+        android:icon="@drawable/ic_faves_24"
+        android:title="Faves"/>
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/ic_explore_24"
+        android:title="Explore"/>
+    <item
+        android:id="@+id/navigation_gas"
+        android:icon="@drawable/ic_gas_24"
+        android:title="Gas"/>
+</menu>
